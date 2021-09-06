@@ -1,0 +1,28 @@
+{
+  "name": "distroless-docker-pnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.2",
+    "typescript": "^4.4.2"
+  }
+}
